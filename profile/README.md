@@ -92,6 +92,7 @@ We divide our ecosystem into microservices to ensure scalability. Here is the ar
 
 Interested in our architecture or want to see the robot in action?
 * 🌐 **Dashboard:** [https://projectidek.dev](https://projectidek.dev)
+* 📞 **Contact:** [root@ce.student.pens.ac.id](root@ce.student.pens.ac.id)
 
 <p align="center">
   <br/>
