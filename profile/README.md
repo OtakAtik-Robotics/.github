@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://projectidek.dev">🌐 Website</a> &nbsp;•&nbsp;
-  <a href="#-featured-projects">🚀 Projects</a> &nbsp;•&nbsp;
+  <a href="#-featured-project">🚀 Project</a> &nbsp;•&nbsp;
   <a href="#-repositories">📦 Repositories</a> &nbsp;•&nbsp;
   <a href="#-tech-stack">🛠️ Tech Stack</a> &nbsp;•&nbsp;
   <a href="#-contact">📬 Contact</a>
@@ -32,9 +32,9 @@ We are a technology initiative driven by **Computer Engineering** students at **
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Project
 
-### 🧩 Otak Atik Merah Putih (OAMP) — Cognitive Assessment Platform
+### 🧩 Otak Atik Merah Putih (OAMP)
 
 An automated cognitive and dexterity analysis system built on interactive robotic gameplay.
 
@@ -57,7 +57,7 @@ An automated cognitive and dexterity analysis system built on interactive roboti
 - Midtrans (QRIS) payment gateway
 - AI-powered health reports via multi-provider LLM
 - Telegram bot notifications on payment settlement
-- PostgreSQL + Golang-migrate schema management
+- PostgreSQL + websocket duel match spectating
 
 </td>
 </tr>
@@ -71,8 +71,8 @@ An automated cognitive and dexterity analysis system built on interactive roboti
 
 ```mermaid
 graph LR
-    A[BDT Desktop App<br/>Python/CustomTkinter] -->|REST + WS| B[Backend Server<br/>Go/Gin/PostgreSQL]
-    C[Web Dashboard<br/>React/Vite] -->|REST| B
+    A[BDT Desktop<br/>Python/CustomTkinter] -->|REST + WebSocket| B[Backend Server<br/>Go/Gin/PostgreSQL]
+    C[Web Dashboard<br/>React/Vite/Tailwind] -->|REST API| B
     B -->|Webhook| D[Midtrans Payment]
     B -->|Notify| E[Telegram Bot]
     B -->|Analyze| F[LLM Providers]
@@ -82,19 +82,15 @@ graph LR
 
 | Repo | Status | Description |
 |------|--------|-------------|
-| 🔓 **[BDT2026](https://github.com/OtakAtik-Robotics/BDT2026)** | `Public` | Monorepo: Desktop game client, Go API server, React admin dashboard |
-| 🔓 **[oamp-ai](https://github.com/OtakAtik-Robotics/oamp-ai)** | `Public` | Legacy Edge AI client — OpenCV, MediaPipe, YOLO, offline SQLite buffering |
-| 🔒 **oamp-backend** | `Private` | Golang/Gin REST API — CRUD, WebSocket duels, payment webhooks, LLM analysis |
+| 🔓 **[oamp-bdt-dekstop-app-python](https://github.com/OtakAtik-Robotics/oamp-bdt-dekstop-app-python)** | `Public` | Desktop game client — YOLO hand detection, MediaPipe tracking, tournament cup mode |
+| 🔒 **oamp-backend** | `Private` | Golang/Gin core server — CRUD, WebSocket duels, Midtrans webhooks, LLM health reports |
 | 🔒 **oamp-frontend** | `Private` | React 19 + Vite 8 dashboard — leaderboard, tournaments, AI report Markdown rendering |
 
 <br/>
 
 <div align="center">
-  <a href="https://github.com/OtakAtik-Robotics/BDT2026">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=OtakAtik-Robotics&repo=BDT2026&theme=radical&bg_color=0D1117&border_color=30363D" alt="BDT2026" />
-  </a>
-  <a href="https://github.com/OtakAtik-Robotics/oamp-ai">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=OtakAtik-Robotics&repo=oamp-ai&theme=radical&bg_color=0D1117&border_color=30363D" alt="OAMP AI" />
+  <a href="https://github.com/OtakAtik-Robotics/oamp-bdt-dekstop-app-python">
+    <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=OtakAtik-Robotics&repo=oamp-bdt-dekstop-app-python&theme=radical&bg_color=0D1117&border_color=30363D" alt="BDT Desktop" />
   </a>
 </div>
 
@@ -116,7 +112,6 @@ graph LR
 ![Ultralytics](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
 ![CustomTkinter](https://img.shields.io/badge/CustomTkinter-1F6FEB?style=for-the-badge&logo=python&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 </td>
 <td align="center" width="25%">
@@ -151,7 +146,6 @@ graph LR
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Playwright](https://img.shields.io/badge/E2E-Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Notify-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-![Excelize](https://img.shields.io/badge/Export-Excelize-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
 </td>
 </tr>
